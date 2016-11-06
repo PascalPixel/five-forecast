@@ -1,24 +1,12 @@
-# ReduxSimpleStarter
+# five forecast
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+Five day forecast app built in React/Redux, featuring maps and graphs and totally rad colors.
 
-###Getting Started###
+![Screenshot](/screenshot.png?raw=true "Screenshot")
 
-There are two methods for getting started with this repo.
+Based on [ReduxSimpleStarter](https://github.com/StephenGrider/ReduxSimpleStarter)
 
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
-```
-
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
+#### Boot
 ```
 	> npm install
 	> npm start
