@@ -1,0 +1,76 @@
+$color: #959281
+
+$color-darker: darken($color, 40%)
+$color-dark: darken($color, 20%)
+$color-normal: $color
+$color-light: lighten($color, 20%)
+$color-lighter: lighten($color, 40%)
+
+.search-results
+  .table
+    table-layout: fixed
+
+img.weather-icon
+  width: 2.6em
+  vertical-align: middle
+
+body
+  background: $color-lighter
+  color: $color-normal
+  font-family: 'Avenir Next', sans-serif
+
+.form-control
+  background: $color-lighter
+  border-color: $color-light
+  border-width: 0.2rem
+
+.input-group .btn
+  border-width: 0.2rem
+
+.map
+  position: relative
+  overflow: hidden
+
+.map,
+.gm-style
+  &:before,
+  &:after
+    content: ''
+    position: absolute
+    box-shadow: 0 0 30px 20px $color-lighter
+    z-index: 1
+
+.map
+  &:before
+    top: -15px
+    left: 0
+    right: 0
+    height: 15px
+  &:after
+    right: -15px
+    top: 0
+    bottom: 0
+    width: 15px
+
+.gm-style
+  &:before
+    bottom: -15px
+    left: 0
+    right: 0
+    height: 15px
+  &:after
+    left: -15px
+    top: 0
+    bottom: 0
+    width: 15px
+
+a[title="Report problems with Street View imagery to Google"],
+a[href^="http://maps.google.com/maps"],
+a[href^="https://maps.google.com/maps"],
+.gmnoprint a,
+.gmnoprint span,
+.gm-style-cc
+    display:none !important
+
+.gmnoprint div
+    background:none !important
